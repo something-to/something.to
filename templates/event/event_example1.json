@@ -1,0 +1,179 @@
+{
+  "type": [
+    "https://schema.org/MusicGroup"
+  ],
+  "properties": {
+    "name": [
+      "\n        Foo Fighters\n    "
+    ],
+    "subjectOf": [
+      {
+        "type": [
+          "https://schema.org/VideoObject"
+        ],
+        "properties": {
+          "name": [
+            "Interview with the Foo Fighters"
+          ],
+          "duration": [
+            "PT1M33S"
+          ],
+          "thumbnail": [
+            "foo-fighters-interview-thumb.jpg"
+          ],
+          "description": [
+            "Catch this exclusive interview with Dave Grohl and the Foo Fighters about their new album, Rope."
+          ],
+          "interactionStatistic": [
+            {
+              "type": [
+                "https://schema.org/InteractionCounter"
+              ],
+              "properties": {
+                "interactionType": [
+                  "https://schema.org/CommentAction"
+                ],
+                "userInteractionCount": [
+                  "18"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "track": [
+      {
+        "type": [
+          "https://schema.org/MusicRecording"
+        ],
+        "properties": {
+          "name": [
+            "Rope"
+          ],
+          "url": [
+            "foo-fighters-rope.html"
+          ],
+          "duration": [
+            "PT4M5S"
+          ],
+          "interactionStatistic": [
+            {
+              "type": [
+                "https://schema.org/InteractionCounter"
+              ],
+              "properties": {
+                "interactionType": [
+                  "https://schema.org/ListenAction"
+                ],
+                "userInteractionCount": [
+                  "14300"
+                ]
+              }
+            }
+          ],
+          "audio": [
+            "foo-fighters-rope-play.html"
+          ],
+          "offers": [
+            "foo-fighters-rope-buy.html"
+          ],
+          "inAlbum": [
+            "foo-fighters-wasting-light.html"
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/MusicRecording"
+        ],
+        "properties": {
+          "name": [
+            "Everlong"
+          ],
+          "url": [
+            "foo-fighters-everlong.html"
+          ],
+          "duration": [
+            "PT6M33S"
+          ],
+          "interactionStatistic": [
+            {
+              "type": [
+                "https://schema.org/InteractionCounter"
+              ],
+              "properties": {
+                "interactionType": [
+                  "https://schema.org/ListenAction"
+                ],
+                "userInteractionCount": [
+                  "11700"
+                ]
+              }
+            }
+          ],
+          "audio": [
+            "foo-fighters-everlong-play.html"
+          ],
+          "offers": [
+            "foo-fighters-everlong-buy.html"
+          ],
+          "inAlbum": [
+            "foo-fighters-color-and-shape.html"
+          ]
+        }
+      }
+    ],
+    "event": [
+      {
+        "type": [
+          "https://schema.org/Event"
+        ],
+        "properties": {
+          "url": [
+            "foo-fighters-may20-fedexforum"
+          ],
+          "name": [
+            "FedExForum"
+          ],
+          "location": [
+            "Memphis, TN, US"
+          ],
+          "startDate": [
+            "2011-05-20"
+          ],
+          "offers": [
+            "ticketmaster.com/foofighters/may20-2011"
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/Event"
+        ],
+        "properties": {
+          "url": [
+            "foo-fighters-may23-midamericacenter"
+          ],
+          "name": [
+            "Mid America Center"
+          ],
+          "location": [
+            "Council Bluffs, IA, US"
+          ],
+          "startDate": [
+            "2011-05-23"
+          ],
+          "offers": [
+            "ticketmaster.com/foofighters/may23-2011"
+          ]
+        }
+      }
+    ],
+    "image": [
+      "foofighters-1.jpg",
+      "foofighters-2.jpg",
+      "foofighters-3.jpg"
+    ]
+  }
+}

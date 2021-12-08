@@ -1,0 +1,67 @@
+{
+  "type": [
+    "https://schema.org/Event"
+  ],
+  "properties": {
+    "startDate": [
+      "2013-09-14T21:30"
+    ],
+    "name": [
+      "\n        CANCELLED - Typhoon with Radiation City\n    "
+    ],
+    "eventStatus": [
+      "https://schema.org/EventCancelled"
+    ],
+    "location": [
+      {
+        "type": [
+          "https://schema.org/Place"
+        ],
+        "properties": {
+          "name": [
+            "The Hi-Dive"
+          ],
+          "address": [
+            {
+              "type": [
+                "https://schema.org/PostalAddress"
+              ],
+              "properties": {
+                "streetAddress": [
+                  "7 S. Broadway"
+                ],
+                "addressLocality": [
+                  "Denver"
+                ],
+                "addressRegion": [
+                  "CO"
+                ],
+                "postalCode": [
+                  "80209"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "offers": [
+      {
+        "type": [
+          "https://schema.org/Offer"
+        ],
+        "properties": {
+          "price": [
+            "13.00"
+          ],
+          "priceCurrency": [
+            "USD"
+          ],
+          "url": [
+            "http://www.ticketfly.com/purchase/309433"
+          ]
+        }
+      }
+    ]
+  }
+}

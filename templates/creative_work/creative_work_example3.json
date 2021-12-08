@@ -1,0 +1,113 @@
+{
+  "type": [
+    "https://schema.org/MusicEvent"
+  ],
+  "properties": {
+    "location": [
+      {
+        "type": [
+          "https://schema.org/MusicVenue"
+        ],
+        "properties": {
+          "name": [
+            "Chicago Symphony Center"
+          ],
+          "sameAs": [
+            "http://en.wikipedia.org/wiki/Symphony_Center"
+          ],
+          "address": [
+            "220 S. Michigan Ave, Chicago, Illinois, USA"
+          ]
+        }
+      }
+    ],
+    "offers": [
+      {
+        "type": [
+          "https://schema.org/Offer"
+        ],
+        "properties": {
+          "url": [
+            "/examples/ticket/12341234"
+          ],
+          "price": [
+            "40"
+          ],
+          "priceCurrency": [
+            "USD"
+          ],
+          "availability": [
+            "https://schema.org/InStock"
+          ]
+        }
+      }
+    ],
+    "name": [
+      "Shostakovich Leningrad"
+    ],
+    "startDate": [
+      "2014-05-23T20:00"
+    ],
+    "workPerformed": [
+      {
+        "type": [
+          "https://schema.org/CreativeWork"
+        ],
+        "properties": {
+          "sameAs": [
+            "http://en.wikipedia.org/wiki/Peter_Grimes"
+          ],
+          "name": [
+            "Britten Four Sea Interludes and Passacaglia from Peter Grimes",
+            "Peter Grimes"
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/CreativeWork"
+        ],
+        "properties": {
+          "sameAs": [
+            "http://en.wikipedia.org/wiki/Symphony_No._7_(Shostakovich)"
+          ],
+          "name": [
+            "Shostakovich Symphony No. 7 (Leningrad)"
+          ]
+        }
+      }
+    ],
+    "performer": [
+      {
+        "type": [
+          "https://schema.org/MusicGroup"
+        ],
+        "properties": {
+          "sameAs": [
+            "http://cso.org/",
+            "http://en.wikipedia.org/wiki/Chicago_Symphony_Orchestra"
+          ],
+          "name": [
+            "Chicago Symphony Orchestra"
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/Person"
+        ],
+        "properties": {
+          "sameAs": [
+            "http://www.jaapvanzweden.com/"
+          ],
+          "image": [
+            "/examples/jvanzweden_s.jpg"
+          ],
+          "name": [
+            "Jaap van Zweden"
+          ]
+        }
+      }
+    ]
+  }
+}

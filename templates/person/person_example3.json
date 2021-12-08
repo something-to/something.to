@@ -1,0 +1,40 @@
+{
+  "type": [
+    "https://schema.org/SportsTeam"
+  ],
+  "properties": {
+    "name": [
+      "San Francisco 49ers"
+    ],
+    "member": [
+      {
+        "type": [
+          "https://schema.org/OrganizationRole"
+        ],
+        "properties": {
+          "member": [
+            {
+              "type": [
+                "https://schema.org/Person"
+              ],
+              "properties": {
+                "name": [
+                  "Joe Montana"
+                ]
+              }
+            }
+          ],
+          "startDate": [
+            "1979"
+          ],
+          "endDate": [
+            "1992"
+          ],
+          "roleName": [
+            "Quarterback"
+          ]
+        }
+      }
+    ]
+  }
+}

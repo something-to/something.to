@@ -1,0 +1,32 @@
+{
+  "type": [
+    "https://schema.org/Book"
+  ],
+  "id": "http://worldcat.org/entity/work/id/2292573321",
+  "properties": {
+    "name": [
+      "Rouge et le noir"
+    ],
+    "author": [
+      {
+        "type": [
+          "https://schema.org/Person"
+        ],
+        "id": "http://viaf.org/viaf/17823",
+        "properties": {}
+      }
+    ],
+    "inLanguage": [
+      "fr"
+    ],
+    "workTranslation": [
+      {
+        "type": [
+          "https://schema.org/CreativeWork"
+        ],
+        "id": "http://worldcat.org/entity/work/id/460647",
+        "properties": {}
+      }
+    ]
+  }
+}

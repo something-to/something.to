@@ -1,0 +1,25 @@
+{
+  "type": [
+    "https://schema.org/Place"
+  ],
+  "properties": {
+    "name": [
+      "Empire State Building"
+    ],
+    "geo": [
+      {
+        "type": [
+          "https://schema.org/GeoCoordinates"
+        ],
+        "properties": {
+          "latitude": [
+            "40.75"
+          ],
+          "longitude": [
+            "73.98"
+          ]
+        }
+      }
+    ]
+  }
+}

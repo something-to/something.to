@@ -1,0 +1,28 @@
+{
+  "type": [
+    "https://schema.org/Person"
+  ],
+  "properties": {
+    "name": [
+      "George Bush"
+    ],
+    "disambiguatingDescription": [
+      "41st President of the United States"
+    ],
+    "children": [
+      {
+        "type": [
+          "https://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "George W. Bush"
+          ],
+          "disambiguatingDescription": [
+            "43rd President of the United States"
+          ]
+        }
+      }
+    ]
+  }
+}

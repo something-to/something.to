@@ -1,0 +1,93 @@
+{
+  "type": [
+    "https://schema.org/Book"
+  ],
+  "properties": {
+    "bookFormat": [
+      "EBook/DAISY3"
+    ],
+    "accessibilityFeature": [
+      "largePrint/CSSEnabled",
+      "highContrast/CSSEnabled",
+      "resizeText/CSSEnabled",
+      "displayTransformability",
+      "longDescription",
+      "alternativeText"
+    ],
+    "accessibilityControl": [
+      "fullKeyboardControl",
+      "fullMouseControl"
+    ],
+    "accessibilityHazard": [
+      "noFlashingHazard",
+      "noMotionSimulationHazard",
+      "noSoundHazard"
+    ],
+    "accessibilityAPI": [
+      "ARIA"
+    ],
+    "name": [
+      "Holt Physical Science"
+    ],
+    "description": [
+      "NIMAC-sourced textbook"
+    ],
+    "numberOfPages": [
+      "598"
+    ],
+    "isbn": [
+      "9780030426599"
+    ],
+    "publisher": [
+      {
+        "type": [
+          "https://schema.org/Organization"
+        ],
+        "properties": {
+          "name": [
+            "Holt, Rinehart and Winston"
+          ]
+        }
+      }
+    ],
+    "copyrightYear": [
+      "2007"
+    ],
+    "copyrightHolder": [
+      {
+        "type": [
+          "https://schema.org/Organization"
+        ],
+        "properties": {
+          "name": [
+            "Holt, Rinehart and Winston"
+          ]
+        }
+      }
+    ],
+    "isFamilyFriendly": [
+      "true"
+    ],
+    "inLanguage": [
+      "en-US"
+    ],
+    "genre": [
+      "Educational Materials"
+    ],
+    "aggregateRating": [
+      {
+        "type": [
+          "https://schema.org/AggregateRating"
+        ],
+        "properties": {
+          "reviewCount": [
+            "0"
+          ],
+          "ratingValue": [
+            "0"
+          ]
+        }
+      }
+    ]
+  }
+}

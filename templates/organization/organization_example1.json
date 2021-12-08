@@ -1,0 +1,59 @@
+{
+  "type": [
+    "https://schema.org/Organization"
+  ],
+  "properties": {
+    "name": [
+      "Google.org (GOOG)"
+    ],
+    "address": [
+      {
+        "type": [
+          "https://schema.org/PostalAddress"
+        ],
+        "properties": {
+          "streetAddress": [
+            "38 avenue de l'Opera"
+          ],
+          "postalCode": [
+            "F-75002"
+          ],
+          "addressLocality": [
+            "Paris, France"
+          ]
+        }
+      }
+    ],
+    "telephone": [
+      "( 33 1) 42 68 53 00 "
+    ],
+    "faxNumber": [
+      "( 33 1) 42 68 53 01 "
+    ],
+    "email": [
+      "secretariat(at)google.org"
+    ],
+    "alumni": [
+      {
+        "type": [
+          "https://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Jack Dan"
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "John Smith"
+          ]
+        }
+      }
+    ]
+  }
+}

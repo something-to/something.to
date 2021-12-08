@@ -1,0 +1,25 @@
+{
+  "type": [
+    "https://schema.org/WebSite"
+  ],
+  "properties": {
+    "url": [
+      "http://www.example.com/"
+    ],
+    "potentialAction": [
+      {
+        "type": [
+          "https://schema.org/SearchAction"
+        ],
+        "properties": {
+          "target": [
+            "http://example.com/search?q={query}"
+          ],
+          "query": [
+            ""
+          ]
+        }
+      }
+    ]
+  }
+}

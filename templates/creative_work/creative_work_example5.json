@@ -1,0 +1,232 @@
+{
+  "type": [
+    "https://schema.org/ItemList",
+    "https://schema.org/CreativeWork"
+  ],
+  "properties": {
+    "name": [
+      "Top 5 covers of Bob Dylan Songs"
+    ],
+    "author": [
+      {
+        "type": [
+          "https://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "John Doe"
+          ]
+        }
+      }
+    ],
+    "about": [
+      {
+        "type": [
+          "https://schema.org/MusicRecording"
+        ],
+        "properties": {
+          "byArtist": [
+            {
+              "type": [
+                "https://schema.org/MusicGroup"
+              ],
+              "properties": {
+                "name": [
+                  "Bob Dylan"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "itemListOrder": [
+      "https://schema.org/ItemListOrderAscending"
+    ],
+    "numberOfItems": [
+      "5"
+    ],
+    "itemListElement": [
+      {
+        "type": [
+          "https://schema.org/ListItem"
+        ],
+        "properties": {
+          "position": [
+            "5"
+          ],
+          "item": [
+            {
+              "type": [
+                "https://schema.org/MusicRecording"
+              ],
+              "properties": {
+                "name": [
+                  "If Not For You"
+                ],
+                "byArtist": [
+                  {
+                    "type": [
+                      "https://schema.org/MusicGroup"
+                    ],
+                    "properties": {
+                      "name": [
+                        "George Harrison"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/ListItem"
+        ],
+        "properties": {
+          "position": [
+            "4"
+          ],
+          "item": [
+            {
+              "type": [
+                "https://schema.org/MusicRecording"
+              ],
+              "properties": {
+                "name": [
+                  "The Times They Are A-Changin'"
+                ],
+                "byArtist": [
+                  {
+                    "type": [
+                      "https://schema.org/MusicGroup"
+                    ],
+                    "properties": {
+                      "name": [
+                        "Tracy Chapman"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/ListItem"
+        ],
+        "properties": {
+          "position": [
+            "3"
+          ],
+          "item": [
+            {
+              "type": [
+                "https://schema.org/MusicRecording"
+              ],
+              "properties": {
+                "name": [
+                  "It Ain't Me Babe"
+                ],
+                "byArtist": [
+                  {
+                    "type": [
+                      "https://schema.org/MusicGroup"
+                    ],
+                    "properties": {
+                      "name": [
+                        "Johnny Cash"
+                      ]
+                    }
+                  },
+                  {
+                    "type": [
+                      "https://schema.org/MusicGroup"
+                    ],
+                    "properties": {
+                      "name": [
+                        "June Carter Cash"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/ListItem"
+        ],
+        "properties": {
+          "position": [
+            "2"
+          ],
+          "item": [
+            {
+              "type": [
+                "https://schema.org/MusicRecording"
+              ],
+              "properties": {
+                "name": [
+                  "Don't Think Twice It's Alright"
+                ],
+                "byArtist": [
+                  {
+                    "type": [
+                      "https://schema.org/MusicGroup"
+                    ],
+                    "properties": {
+                      "name": [
+                        "Waylon Jennings"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": [
+          "https://schema.org/ListItem"
+        ],
+        "properties": {
+          "position": [
+            "1"
+          ],
+          "item": [
+            {
+              "type": [
+                "https://schema.org/MusicRecording"
+              ],
+              "properties": {
+                "name": [
+                  "All Along the Watchtower"
+                ],
+                "byArtist": [
+                  {
+                    "type": [
+                      "https://schema.org/MusicGroup"
+                    ],
+                    "properties": {
+                      "name": [
+                        "Jimi Hendrix"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

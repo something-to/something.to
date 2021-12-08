@@ -1,0 +1,71 @@
+{
+  "type": [
+    "https://schema.org/TheaterEvent"
+  ],
+  "properties": {
+    "name": [
+      "Julius Caesar at Shakespeare's Globe"
+    ],
+    "location": [
+      {
+        "type": [
+          "https://schema.org/PerformingArtsTheater"
+        ],
+        "properties": {
+          "name": [
+            "Shakespeare's Globe"
+          ],
+          "sameAs": [
+            "http://www.shakespearesglobe.com/"
+          ],
+          "address": [
+            "London, UK"
+          ]
+        }
+      }
+    ],
+    "offers": [
+      {
+        "type": [
+          "https://schema.org/Offer"
+        ],
+        "properties": {
+          "url": [
+            "/examples/ticket/0012301230123"
+          ]
+        }
+      }
+    ],
+    "startDate": [
+      "2014-10-01T19:30"
+    ],
+    "workPerformed": [
+      {
+        "type": [
+          "https://schema.org/CreativeWork"
+        ],
+        "properties": {
+          "sameAs": [
+            "http://en.wikipedia.org/wiki/Julius_Caesar_(play)",
+            "http://worldcat.org/entity/work/id/1807288036"
+          ],
+          "creator": [
+            {
+              "type": [
+                "https://schema.org/Person"
+              ],
+              "properties": {
+                "name": [
+                  "William Shakespeare"
+                ],
+                "sameAs": [
+                  "http://en.wikipedia.org/wiki/William_Shakespeare"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

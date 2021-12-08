@@ -1,0 +1,16 @@
+{
+  "type": [
+    "https://schema.org/Person"
+  ],
+  "properties": {
+    "name": [
+      "Christopher Froome"
+    ],
+    "sponsor": [
+      "\n    Sky"
+    ],
+    "url": [
+      "http://www.skysports.com/"
+    ]
+  }
+}

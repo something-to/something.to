@@ -1,0 +1,71 @@
+{
+  "type": [
+    "https://schema.org/Product"
+  ],
+  "properties": {
+    "image": [
+      "dell-30in-lcd.jpg"
+    ],
+    "name": [
+      "Dell UltraSharp 30\" LCD Monitor"
+    ],
+    "aggregateRating": [
+      {
+        "type": [
+          "https://schema.org/AggregateRating"
+        ],
+        "properties": {
+          "ratingValue": [
+            "87"
+          ],
+          "bestRating": [
+            "100"
+          ],
+          "ratingCount": [
+            "24"
+          ]
+        }
+      }
+    ],
+    "offers": [
+      {
+        "type": [
+          "https://schema.org/AggregateOffer"
+        ],
+        "properties": {
+          "lowPrice": [
+            "$1250"
+          ],
+          "highPrice": [
+            "$1495"
+          ],
+          "offerCount": [
+            "8"
+          ],
+          "offers": [
+            {
+              "type": [
+                "https://schema.org/Offer"
+              ],
+              "properties": {
+                "url": [
+                  "save-a-lot-monitors.com/dell-30.html"
+                ]
+              }
+            },
+            {
+              "type": [
+                "https://schema.org/Offer"
+              ],
+              "properties": {
+                "url": [
+                  "jondoe-gadgets.com/dell-30.html"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
